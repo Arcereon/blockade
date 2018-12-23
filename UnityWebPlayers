@@ -1,0 +1,109 @@
+/****************************************
+  ==== RESETS
+****************************************/
+
+html,body,div,canvas { margin: 0; padding: 0; }
+::-moz-selection { color: #333; text-shadow: none; }
+::selection {  color: #333; text-shadow: none; }
+.clear:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clear { display: inline-table; clear: both; }
+/* Hides from IE-mac \*/ * html .clear { height: 1%; } .clear { display: block; } /* End hide from IE-mac */
+
+/****************************************
+  ==== WEBPLAYER
+****************************************/
+
+body
+            {
+                font-family: Helvetica, Verdana, Arial, sans-serif;
+                background-color: white;
+                color: black;
+                text-align: center;
+            }
+
+            a:link, a:visited
+            {
+                color: #000;
+            }
+
+            a:active, a:hover
+            {
+                color: #666;
+            }
+
+            p.header
+            {
+                font-size: small;
+            }
+
+            p.header span
+            {
+                font-weight: bold;
+            }
+
+            p.footer
+            {
+                font-size: x-small;
+            }
+
+            div.content
+            {
+                margin: auto;
+                width: 940px;
+            }
+
+            div.broken,
+            div.missing
+            {
+                margin: auto;
+                position: relative;
+                top: 50%;
+                width: 193px;
+            }
+
+            div.broken a,
+            div.missing a
+            {
+                height: 63px;
+                position: relative;
+                top: -31px;
+            }
+
+            div.broken img,
+            div.missing img
+            {
+                border-width: 0px;
+            }
+
+            div.broken
+            {
+                display: none;
+            }
+
+            div#unityPlayer
+            {
+                cursor: default;
+                height: 300px;
+                width: 940px;
+                z-index: -999;
+            }
+
+            .clearfix:after
+            {
+                content:"\0020";
+                display:block;
+                height:0;
+                clear:both;
+                visibility:hidden;
+                overflow:hidden;
+            }
+
+            .clearfix
+            {
+                display:block;
+            }
+
+            .clear
+            {
+                clear:both;
+}
